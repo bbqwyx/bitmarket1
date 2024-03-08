@@ -125,11 +125,6 @@ footer {
     position: absolute;
     left: 265px;
 }
-.stars {
-    position: absolute;
-    right: 265px;
-    bottom: 252px;
-}
 .button:hover {
     background-color: #9536CE;
     color: #f6edfb;
@@ -149,4 +144,8 @@ footer {
 article:hover {
     font-weight: bolder;
     font-style: italic;
+}
+.post-img {
+    width: 400px;
+    height: 300px;
 }
