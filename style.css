@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif;
-    background-color: black;
+    font-family: Georgia;
+    background-image: linear-gradient(to bottom right, #fde7f0, #fffcf2);
 }
 
 header {
@@ -12,13 +12,17 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
-    color: black;
+    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
+    color: white;
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
     border-radius: 10px;
     display: block;
+    font-family: Georgia;
+    text-shadow: 0 0 5.5px #e98686;
+    transition: 0.3s;
+    box-shadow: 0 0 3.5px 2.5px #eb5058;
 }
 
 nav {
@@ -65,12 +69,15 @@ h1 {
 
 .article-but {
     text-decoration: none;
-    background-color: #133aac;
+    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
     color: white;
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
+    border-radius: 7.5px;
+    box-shadow: 0 0 3.5px 2.5px #eb5058;
+    transition: 0.3s;
 }
 
 .full-image {
@@ -83,11 +90,14 @@ h1 {
     position: fixed;
     top: 250px;
     right: 0px;
-    background-color: #133aac;
+    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
     width: 97.5px;
-    border: 3px solid #001142;
+    box-shadow: 0 0 3.5px 2.5px #eb5058;
     border-radius: 10px;
     text-align: center;
+    text-shadow: 0 0 5.5px #e98686;
+    transition: 0.3s;
+    font-size: 15px;
 }
 
 footer {
@@ -96,6 +106,11 @@ footer {
     justify-content: flex-start;
     align-items: center;
     padding: 30px 30px 20px 45px;
+    transition: 0.3s;
+    text-shadow: 0 0 5.5px #f8cdcd;
+    box-shadow: 0 0 10px 5px #f56c73;
+    border-radius: 7.5px;
+    color: #eca89f;
 }
 
 .footer-text {
@@ -103,53 +118,80 @@ footer {
     margin-right: 30px;
 }
 
-.footer-text span {
-    color: #850AE5;
-    font-weight: bolder;
-}
 .iphone13 {
     position: relative;
-}
-.iphone {
-    position: absolute;
-    left: 240px;
-    bottom: 470px;
-}
-.iphone-text {
-    position: absolute;
-    left: 310px;
-    bottom: 460px;
-    color: #068ee9;
 }
 .proffesionals {
     position: absolute;
     left: 455px;
 }
 .button:hover {
-    background-color: #9536CE;
-    color: white;
+    text-shadow: 0 0 5.5px #d4a660;
+    box-shadow: 0 0 5px 4.5px #ebb550;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
 }
 .nav-link:hover {
-    color: #bc80e0;
+    font-size: 35px;
+    text-shadow: 0 0 5.5px #fff8b5;
+    font-family: Georgia;
+    color: #eccc9a;
+}
+.nav-link {
+    text-shadow: 0 0 5.5px #ffb5b5;
+    font-size: 25px;
+    color: #eca89f;
+    font-family: Georgia;
+    transition: 0.3s;
 }
 .article-but:hover {
-    background-color: #862DBA;
-    color: white;
+    text-shadow: 0 0 5.5px #d4a660;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
+    box-shadow: 0 0 5px 4.5px #ebb550;
 }
 .social:hover {
-    background-color: #8a2fc0;
-    color: white;
-    border: 3px solid #531c74;
-}
-article:hover {
-    font-weight: bolder;
-    font-style: italic;
+    text-shadow: 0 0 5.5px #d4a660;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
+    box-shadow: 0 0 5px 4.5px #ebb550;
 }
 .post-img {
     width: 400px;
     height: 300px;
-    border: 3px solid #133aac;
+    box-shadow: 0 0 10px 5px #f56c73;
+    border-radius: 7.5px;
+    transition: 0.3s;
 }
 .post-img:hover {
-    border: 3px solid #862DBA;
+    width: 425px;
+    height: 325px;
+    box-shadow: 0 0 12.5px 9.5px #ebb550;
+    margin: -20px;
+}
+article {
+    text-align: center;
+    color: #eca89f;
+    transition: 0.3s;
+    text-shadow: 0 0 5.5px #f8cdcd;
+    box-shadow: 0 0 10px 5px #f56c73;
+    border-radius: 7.5px;
+}
+article:hover {
+    color: #f2b75f;
+    text-shadow: 0 0 5.5px #ffe7c3;
+    box-shadow: 0 0 15px 7.5px #ebb550;
+}
+.address, .tel {
+    color: #f56c73;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.address:hover, .tel:hover {
+    color: #ebb550;
+    text-shadow: 0 0 5.5px #ffe7c3;
+    font-size: 35px;
+}
+footer:hover {
+    box-shadow: 0 0 15px 7.5px #ebb550;
 }
