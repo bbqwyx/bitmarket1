@@ -42,12 +42,18 @@ nav {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #eca89f;
+    transition: 0.3s;
+    text-shadow: 0 0 5px #f8cdcd;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
 }
-
+h1:hover {
+    font-size: 47px;
+    color: #f2b75f;
+    text-shadow: 0 0 6px #ffe7c3;
+}
 .post-text {
     font-size: 24px;
 }
