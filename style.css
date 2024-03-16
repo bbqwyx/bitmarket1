@@ -51,7 +51,7 @@ h1 {
 }
 h1:hover {
     font-size: 47px;
-    color: #f2b75f;
+    color: #eccc9a;
     text-shadow: 0 0 6px #ffe7c3;
 }
 .post-text {
@@ -200,4 +200,12 @@ article:hover {
 }
 footer:hover {
     box-shadow: 0 0 15px 7.5px #ebb550;
+}
+h1::before {
+    content: url(https://www.svgrepo.com/show/70098/magnifying-lens-as-head-of-business-professional.svg);
+    height: 50px;
+}
+h1::after {
+    content: url(https://www.svgrepo.com/show/55423/five-stars-outlines.svg);
+    height: 50px;
 }
