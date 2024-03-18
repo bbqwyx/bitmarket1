@@ -21,8 +21,8 @@ header {
     display: block;
     font-family: Georgia;
     text-shadow: 0 0 5.5px #e98686;
-    transition: 0.3s;
     box-shadow: 0 0 3.5px 2.5px #eb5058;
+    transition: 0.3s;
 }
 
 nav {
@@ -50,7 +50,6 @@ h1 {
     margin-bottom: 40px;
 }
 h1:hover {
-    font-size: 47px;
     color: #eccc9a;
     text-shadow: 0 0 6px #ffe7c3;
 }
@@ -134,7 +133,8 @@ footer {
 .button:hover {
     text-shadow: 0 0 5.5px #d4a660;
     box-shadow: 0 0 5px 4.5px #ebb550;
-    font-size: 35px;
+    transform: scale(1.25);
+    margin: 25px;
     background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
 }
 .nav-link:hover {
@@ -158,9 +158,9 @@ footer {
 }
 .social:hover {
     text-shadow: 0 0 5.5px #d4a660;
-    font-size: 20px;
     background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
     box-shadow: 0 0 5px 4.5px #ebb550;
+    font-size: 22.5px;
 }
 .post-img {
     width: 400px;
@@ -201,11 +201,15 @@ article:hover {
 footer:hover {
     box-shadow: 0 0 15px 7.5px #ebb550;
 }
-h1::before {
-    content: url(https://www.svgrepo.com/show/70098/magnifying-lens-as-head-of-business-professional.svg);
+.pro, .stars {
     height: 50px;
+    position: relative;
 }
-h1::after {
-    content: url(https://www.svgrepo.com/show/55423/five-stars-outlines.svg);
-    height: 50px;
+.pro {
+    top: 93px;
+    left: 125px;
+}
+.stars {
+    bottom:85px;
+    left: 615px;
 }
