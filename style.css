@@ -160,7 +160,6 @@ footer {
     text-shadow: 0 0 5.5px #d4a660;
     background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
     box-shadow: 0 0 5px 4.5px #ebb550;
-    font-size: 22.5px;
     transform:scale(1.25);
     margin:25px;
 }
