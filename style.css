@@ -31,7 +31,6 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
 h1 {
     text-align: center;
     color: #7889eb;
@@ -124,9 +123,10 @@ footer {
     margin: 25px;
 }
 .nav-link:hover {
-    text-shadow: 0 0 5.5px #c0b5ff;
-    color: #21d5e2;
-    border: 2px double white;
+    text-shadow: 0 0 5.5px #b5e8ff;
+    color: #07acb8;
+    border: 7.5px double #3b5ae6;
+    background-image: linear-gradient(to bottom right, #ecf9ff, #b5e8ff);
 }
 .nav-link {
     text-shadow: 0 0 5.5px #b5e8ff;
@@ -136,8 +136,10 @@ footer {
     text-decoration: none;
     display: block;
     font-family: courier new;
-    border: 2px solid white;
+    border: 4.5px solid white;
     padding: 7.5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5.5px 1.5px #1b19ad;
 }
 .article-but:hover {
     transform:scale(1.15);
@@ -167,15 +169,16 @@ article {
     border-radius: 7.5px;
 }
 .address, .tel {
-    color: #8a6cf5;
+    text-shadow: 0 0 5.5px #b5e8ff;
+    color: #3b5ae6;
     transition: 0.3s;
     font-size: 25px;
     display: inline-block;
 }
 .address:hover, .tel:hover {
-    color: #21d5e2;
-    text-shadow: 0 0 5.5px #c0b5ff;
-    font-size: 35px;
+    text-shadow: 0 0 5.5px #b5e8ff;
+    color: #07acb8;
+    font-size: 30px;
 }
 .pro, .stars {
     height: 50px;
