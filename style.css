@@ -1,6 +1,6 @@
 body {
-    font-family: Georgia;
-    background-image: linear-gradient(to bottom right, #fde7f0, #fffcf2);
+    font-family: Helvetica;
+    background-image: linear-gradient(to bottom right, #e7fafd, #f8f2ff);
 }
 
 header {
@@ -12,16 +12,15 @@ header {
 }
 
 .button {
-    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
+    background-image: linear-gradient(to bottom right, #81f1ec, #7638da);
     color: white;
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
     border-radius: 10px;
     display: block;
-    font-family: Georgia;
-    text-shadow: 0 0 5.5px #e98686;
-    box-shadow: 0 0 3.5px 2.5px #eb5058;
+    text-shadow: 0 0 5.5px #81f1ec;
+    box-shadow: 0 0 3.5px 2.5px #1b19ad;
     transition: 0.3s;
 }
 
@@ -38,20 +37,17 @@ nav {
     color: white;
     text-decoration: none;
     display: block;
+    font-family: courier new;
 }
 
 h1 {
     text-align: center;
-    color: #eca89f;
+    color: #7889eb;
     transition: 0.3s;
-    text-shadow: 0 0 5px #f8cdcd;
+    text-shadow: 0 0 5px #cde5f8;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
-}
-h1:hover {
-    color: #eccc9a;
-    text-shadow: 0 0 6px #ffe7c3;
 }
 .post-text {
     font-size: 24px;
@@ -74,14 +70,14 @@ h1:hover {
 
 .article-but {
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
+    background-image: linear-gradient(to bottom right, #5f7af2, #c9d9fb);
     color: white;
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
     border-radius: 7.5px;
-    box-shadow: 0 0 3.5px 2.5px #eb5058;
+    box-shadow: 0 0 3.5px 2.5px #5053eb;
     transition: 0.3s;
 }
 
@@ -95,12 +91,12 @@ h1:hover {
     position: fixed;
     top: 250px;
     right: 0px;
-    background-image: linear-gradient(to bottom right, #f25f66, #fbd8c9);
+    background-image: linear-gradient(to bottom right, #81f1ec, #7638da);
     width: 97.5px;
-    box-shadow: 0 0 3.5px 2.5px #eb5058;
+    box-shadow: 0 0 3.5px 2.5px #1b19ad;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 5.5px #e98686;
+    text-shadow: 0 0 5.5px #81f1ec;
     transition: 0.3s;
     font-size: 15px;
 }
@@ -112,10 +108,11 @@ footer {
     align-items: center;
     padding: 30px 30px 20px 45px;
     transition: 0.3s;
-    text-shadow: 0 0 5.5px #f8cdcd;
-    box-shadow: 0 0 10px 5px #f56c73;
-    border-radius: 7.5px;
-    color: #eca89f;
+    text-shadow: 0 0 5.5px #cddbf8;
+    color: #9fabec;
+    width: 100%;
+    height: 175px;
+    border-top: 12.5px double #505feb;
 }
 
 .footer-text {
@@ -131,76 +128,57 @@ footer {
     left: 455px;
 }
 .button:hover {
-    text-shadow: 0 0 5.5px #d4a660;
-    box-shadow: 0 0 5px 4.5px #ebb550;
     transform: scale(1.25);
     margin: 25px;
-    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
 }
 .nav-link:hover {
     font-size: 35px;
-    text-shadow: 0 0 5.5px #fff8b5;
-    font-family: Georgia;
-    color: #eccc9a;
+    text-shadow: 0 0 5.5px #c0b5ff;
+    color: #21d5e2;
 }
 .nav-link {
-    text-shadow: 0 0 5.5px #ffb5b5;
+    text-shadow: 0 0 5.5px #b5e8ff;
     font-size: 25px;
-    color: #eca89f;
-    font-family: Georgia;
+    color: #3b5ae6;
     transition: 0.3s;
 }
 .article-but:hover {
-    text-shadow: 0 0 5.5px #d4a660;
-    font-size: 35px;
-    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
-    box-shadow: 0 0 5px 4.5px #ebb550;
+    transform:scale(1.15);
 }
 .social:hover {
-    text-shadow: 0 0 5.5px #d4a660;
-    background-image: linear-gradient(to bottom right, #f2b75f, #fbf2c9);
-    box-shadow: 0 0 5px 4.5px #ebb550;
     transform:scale(1.25);
     margin:25px;
 }
 .post-img {
     width: 400px;
     height: 300px;
-    box-shadow: 0 0 10px 5px #f56c73;
+    box-shadow: 0 0 10px 5px #76aaee;
     border-radius: 7.5px;
     transition: 0.3s;
 }
 .post-img:hover {
     width: 425px;
     height: 325px;
-    box-shadow: 0 0 12.5px 9.5px #ebb550;
     margin: -20px;
 }
 article {
     text-align: center;
-    color: #eca89f;
+    color: #76aaee;
     transition: 0.3s;
-    text-shadow: 0 0 5.5px #f8cdcd;
-    box-shadow: 0 0 10px 5px #f56c73;
+    text-shadow: 0 0 5.5px #dbdaff;
+    box-shadow: 0 0 10px 5px #76aaee;
     border-radius: 7.5px;
 }
-article:hover {
-    color: #f2b75f;
-    text-shadow: 0 0 5.5px #ffe7c3;
-    box-shadow: 0 0 15px 7.5px #ebb550;
-}
 .address, .tel {
-    color: #f56c73;
+    color: #8a6cf5;
     transition: 0.3s;
     font-size: 25px;
+    display: inline-block;
 }
 .address:hover, .tel:hover {
-    color: #ebb550;
-    text-shadow: 0 0 5.5px #ffe7c3;
+    color: #50ebeb;
+    text-shadow: 0 0 5.5px #c3fffa;
     font-size: 35px;
-}
-footer:hover {
-    box-shadow: 0 0 15px 7.5px #ebb550;
 }
 .pro, .stars {
     height: 50px;
@@ -211,6 +189,6 @@ footer:hover {
     left: 425px;
 }
 .stars {
-    bottom:85px;
-    left: 700px;
+    bottom: 85px;
+    left: 725px;
 }
