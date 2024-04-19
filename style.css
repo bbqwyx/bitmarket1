@@ -32,14 +32,6 @@ nav {
     justify-content: space-between;
 }
 
-.nav-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    display: block;
-    font-family: courier new;
-}
-
 h1 {
     text-align: center;
     color: #7889eb;
@@ -132,15 +124,20 @@ footer {
     margin: 25px;
 }
 .nav-link:hover {
-    font-size: 35px;
     text-shadow: 0 0 5.5px #c0b5ff;
     color: #21d5e2;
+    border: 2px double white;
 }
 .nav-link {
     text-shadow: 0 0 5.5px #b5e8ff;
     font-size: 25px;
     color: #3b5ae6;
     transition: 0.3s;
+    text-decoration: none;
+    display: block;
+    font-family: courier new;
+    border: 2px solid white;
+    padding: 7.5px;
 }
 .article-but:hover {
     transform:scale(1.15);
@@ -176,8 +173,8 @@ article {
     display: inline-block;
 }
 .address:hover, .tel:hover {
-    color: #50ebeb;
-    text-shadow: 0 0 5.5px #c3fffa;
+    color: #21d5e2;
+    text-shadow: 0 0 5.5px #c0b5ff;
     font-size: 35px;
 }
 .pro, .stars {
